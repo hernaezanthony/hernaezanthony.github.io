@@ -7,8 +7,8 @@ header.masthead {
     // if the image name change, make sure to update the url path below!
     background: linear-gradient(
             to bottom,
-            #{fade-out($brown, 0.2)} 0%,
-            #{fade-out($brown, 0.2)} 100%
+            #{fade-out($yellow, 0.2)} 0%,
+            #{fade-out($yellow, 0.2)} 100%
         ),
         url("../assets/img/bg-masthead.jpg");
     background-position: center;
