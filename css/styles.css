@@ -10172,3 +10172,20 @@ header.masthead h1 {
   height: 200px;
   margin-bottom: 20px
 }
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.text-blue {
+  color: rgba(25, 43, 194);
+}
+
+.margin-top{
+   margin-top: 20px
+}

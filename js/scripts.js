@@ -45,19 +45,121 @@
   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
+  $('#portfolio1').magnificPopup({
+    // delegate: 'a',
+    items: [
+      {
+        src: '#popup-quickreach',
+        type: 'inline'
+      },
+      {
+        src: "assets/img/portfolio/thumbnails/1.JPG"
+      }
+    ],
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     mainClass: 'mfp-img-mobile',
     gallery: {
       enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
+      navigateByImgClick: true
     },
     image: {
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+  $('#portfolio2').magnificPopup({
+    // delegate: 'a',
+    items: [
+      {
+        src: '#popup-instructo',
+        type: 'inline'
+      },
+      {
+        src: "assets/img/portfolio/instructo/1.JPG"
+      },
+      {
+        src: "assets/img/portfolio/instructo/2.JPG"
+      },
+      {
+        src: "assets/img/portfolio/instructo/3.jpg"
+      }
+    ],
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
+  $('#portfolio3').magnificPopup({
+    // delegate: 'a',
+    items: [
+      {
+        src: '#popup-agap',
+        type: 'inline'
+      },
+      {
+        src: "assets/img/portfolio/agap/1.JPG"
+      },
+      {
+        src: "assets/img/portfolio/agap/2.JPG"
+      },
+      {
+        src: "assets/img/portfolio/agap/3.JPG"
+      },
+      {
+        src: "assets/img/portfolio/agap/4.jpg"
+      }
+    ],
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
+  $('#portfolio4').magnificPopup({
+    // delegate: 'a',
+    items: [
+      {
+        src: '#popup-fuente',
+        type: 'inline'
+      },
+      {
+        src: "assets/img/portfolio/fuente/1.JPG"
+      },
+      {
+        src: "assets/img/portfolio/fuente/2.JPG"
+      },
+      {
+        src: "assets/img/portfolio/fuente/3.jpg"
+      },
+      {
+        src: "assets/img/portfolio/fuente/4.jpg"
+      }
+    ],
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
 
 })(jQuery); // End of use strict
