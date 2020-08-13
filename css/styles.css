@@ -10173,6 +10173,12 @@ header.masthead h1 {
   margin-bottom: 20px
 }
 
+.logo-image {
+  vertical-align: middle;
+  width: 60px;
+  height: 35px;
+}
+
 .white-popup {
   position: relative;
   background: #FFF;
