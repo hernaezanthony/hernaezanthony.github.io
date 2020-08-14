@@ -53,7 +53,10 @@
         type: 'inline'
       },
       {
-        src: "assets/img/portfolio/thumbnails/1.JPG"
+        src: "assets/img/portfolio/steer/1.jpg"
+      },
+      {
+        src: "assets/img/portfolio/steer/2.jpg"
       }
     ],
     type: 'image',
