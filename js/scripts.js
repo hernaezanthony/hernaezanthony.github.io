@@ -71,7 +71,90 @@
     }
   });
 
+
   $('#portfolio2').magnificPopup({
+    // delegate: 'a',
+    items: [
+      {
+        src: '#popup-reviewii',
+        type: 'inline'
+      },
+      {
+        src: "assets/img/portfolio/reviewii/1.png"
+      },
+      {
+        src: "assets/img/portfolio/reviewii/2.png"
+      },
+      {
+        src: "assets/img/portfolio/reviewii/3.png"
+      }
+    ],
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
+  
+  $('#portfolio3').magnificPopup({
+    // delegate: 'a',
+    items: [
+      {
+        src: '#popup-feliz',
+        type: 'inline'
+      },
+      {
+        src: "assets/img/portfolio/feliz/1.png"
+      },
+      {
+        src: "assets/img/portfolio/feliz/2.png"
+      }
+    ],
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
+  $('#portfolio4').magnificPopup({
+    // delegate: 'a',
+    items: [
+      {
+        src: '#popup-jobpair',
+        type: 'inline'
+      },
+      {
+        src: "assets/img/portfolio/jobpair/1.png"
+      },
+      {
+        src: "assets/img/portfolio/jobpair/2.png"
+      }
+    ],
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+    }
+  });
+
+  $('#portfolio5').magnificPopup({
     // delegate: 'a',
     items: [
       {
@@ -100,7 +183,7 @@
     }
   });
 
-  $('#portfolio3').magnificPopup({
+  $('#portfolio6').magnificPopup({
     // delegate: 'a',
     items: [
       {
@@ -132,7 +215,7 @@
     }
   });
 
-  $('#portfolio4').magnificPopup({
+  $('#portfolio7').magnificPopup({
     // delegate: 'a',
     items: [
       {
